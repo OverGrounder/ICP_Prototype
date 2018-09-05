@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="회원정보"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/sign_up_name_edit"
+        android:hint="이름"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/sign_up_nickname_edit"
+        android:hint="닉네임"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/sign_up_gender_edit"
+        android:hint="성별"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/sign_up_address_edit"
+        android:hint="주소"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/sign_up_phone_edit"
+        android:hint="핸드폰 번호"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"/>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="제출"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
